@@ -1,0 +1,22 @@
+{
+  "name": "challenge-html-10",
+  "version": "1.0.0",
+  "description": "Create a resposnivde landing page with tailwind css",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardoAguayoOrtega/challenge-html-10.git"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "Bernardo Aguayo Ortega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BernardoAguayoOrtega/challenge-html-10/issues"
+  },
+  "homepage": "https://github.com/BernardoAguayoOrtega/challenge-html-10#readme"
+}
