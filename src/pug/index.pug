@@ -1,0 +1,23 @@
+//-mixins
+mixin menuElement(text)
+    a(class="mr-4 text-sm font-light ") #{text}
+
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title challenge html 10
+        link(rel="stylesheet", href="index.css")
+    body
+        .main-container(class="p-4")
+            main(class="min-h-screen" style="background-image: url(https://images.pexels.com/photos/1030913/pexels-photo-1030913.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260)")
+                header(class="flex justify-between uppercase p-8 ")
+                    h1(class="text-gray-900 text-2xl") lo
+                    nav
+                        +menuElement("about")
+                        +menuElement("articles")
+                        a(class="text-sm p-2 border-solid border-2 border-gray-900 font-light") subscribe 
+                .main-text-container(class="uppercase flex flex-col items-center mt-40")
+                    h1(class="text-6xl") lombok
+                    p holistic health
